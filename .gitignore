@@ -5,12 +5,3 @@ using namespace std;
 int main() {
 	cout << "Opa Regis aqui e o Matheus Kautnick Domeneghini";
 
-    // Cria uma janela SFML
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Exibir Imagem");
-
-    // Carrega a imagem
-    sf::Texture texture;
-    if (!texture.loadFromFile("caminho/para/sua/imagem.jpg")) { // Substitua pelo caminho da sua imagem
-        cout << "Erro ao carregar a imagem!" << endl;
-        return -1; // Encerra o programa se a imagem não for carregada
-    }
